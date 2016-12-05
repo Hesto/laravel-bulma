@@ -1,0 +1,24 @@
+{
+    "name": "hesto/laravel-bulma",
+    "description": "Bulma Installation package for Laravel 5",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Hesto",
+            "email": "losiakp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "hesto/core": ">=1.0.5"
+    },    
+    "autoload": {
+        "classmap": [
+            "src/commands"
+        ],
+        "psr-4": {
+            "Hesto\\LaravelBulma\\": "src/"
+        }
+    }
+}
