@@ -24,17 +24,30 @@ class BulmaServiceProvider extends ServiceProvider
     public function register()
     {
         $this->registerInstallCommand();
+        $this->registerDependenciesCommand();
     }
 
     /**
-     * Register the adminlte:install command.
+     * Register the bulma:install command.
      */
     private function registerInstallCommand()
     {
         $this->app->singleton('command.hesto.bulma.install', function ($app) {
-            return $app['Hesto\Adminlte\Commands\BulmaInstallCommand'];
+            return $app['Hesto\LaravelBulma\Commands\BulmaInstallCommand'];
         });
 
         $this->commands('command.hesto.bulma.install');
+    }
+
+    /**
+     * Register the bulma:install command.
+     */
+    private function registerDependenciesCommand()
+    {
+        $this->app->singleton('command.hesto.bulma.dependencies', function ($app) {
+            return $app['Hesto\LaravelBulma\Commands\BulmaInstallDependenciesCommand'];
+        });
+
+        $this->commands('command.hesto.bulma.dependencies');
     }
 }

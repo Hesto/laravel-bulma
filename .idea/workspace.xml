@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfe9b8ae-1ec4-47fd-a126-976de4c6c777" name="Default" comment="" />
+    <list default="true" id="bfe9b8ae-1ec4-47fd-a126-976de4c6c777" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BulmaServiceProvider.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/resources/assets/js/plugins/admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/resources/assets/js/plugins/front.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/resources/assets/sass/plugins/admin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/resources/assets/sass/plugins/front.scss" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/resources/assets/js/bulma.js" afterPath="$PROJECT_DIR$/resources/resources/assets/js/bootstrap-bulma.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/resources/assets/js/admin.js" afterPath="$PROJECT_DIR$/resources/resources/assets/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/resources/assets/js/front.js" afterPath="$PROJECT_DIR$/resources/resources/assets/js/front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/resources/assets/sass/admin.scss" afterPath="$PROJECT_DIR$/resources/resources/assets/sass/admin.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/resources/assets/sass/front.scss" afterPath="$PROJECT_DIR$/resources/resources/assets/sass/front.scss" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,19 +32,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BulmaInstallCommand.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Commands/BulmaInstallCommand.php">
+      <file leaf-file-name="front.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/resources/assets/js/front.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="972">
-              <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-              <folding>
-                <element signature="e#47#86#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="189">
+              <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,14 +59,16 @@
         <option value="$PROJECT_DIR$/resources/resources/assets/sass/plugins/bulma.scss" />
         <option value="$PROJECT_DIR$/resources/resources/assets/js/plugins/front.js" />
         <option value="$PROJECT_DIR$/resources/resources/assets/js/plugins/admin.js" />
-        <option value="$PROJECT_DIR$/resources/resources/assets/js/admin.js" />
-        <option value="$PROJECT_DIR$/resources/resources/assets/js/front.js" />
-        <option value="$PROJECT_DIR$/resources/resources/assets/sass/front.scss" />
-        <option value="$PROJECT_DIR$/resources/resources/assets/sass/admin.scss" />
         <option value="$PROJECT_DIR$/resources/resources/assets/sass/plugins/admin.scss" />
         <option value="$PROJECT_DIR$/resources/resources/assets/sass/plugins/front.scss" />
         <option value="$PROJECT_DIR$/src/stubs/npm/package.json.stub" />
         <option value="$PROJECT_DIR$/src/Commands/BulmaInstallDependenciesCommand.php" />
+        <option value="$PROJECT_DIR$/src/BulmaServiceProvider.php" />
+        <option value="$PROJECT_DIR$/resources/resources/assets/sass/front.scss" />
+        <option value="$PROJECT_DIR$/resources/resources/assets/sass/admin.scss" />
+        <option value="$PROJECT_DIR$/resources/resources/assets/js/bootstrap-bulma.js" />
+        <option value="$PROJECT_DIR$/resources/resources/assets/js/admin.js" />
+        <option value="$PROJECT_DIR$/resources/resources/assets/js/front.js" />
       </list>
     </option>
   </component>
@@ -90,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -115,14 +130,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stubs" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="npm" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -158,8 +165,61 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulma" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sass" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulma" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bulma" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -170,16 +230,17 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\www\bulma\resources\resources\assets\js" />
-      <recent name="C:\laragon\www\bulma\resources\resources\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\bulma" />
       <recent name="C:\laragon\www\bulma\src\Commands" />
       <recent name="C:\laragon\www\bulma\src" />
       <recent name="C:\laragon\www\bulma\resources\resources\assets\sass\plugins" />
       <recent name="C:\laragon\www\bulma\resources\resources\assets\js\plugins" />
-      <recent name="C:\laragon\www\bulma\resources\resources\assets\sass" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\bulma\src" />
+      <recent name="C:\laragon\www\bulma\resources\resources\assets\js" />
+      <recent name="C:\laragon\www\bulma\resources\resources\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -262,23 +323,24 @@
       <option name="presentableId" value="Default" />
       <updated>1480778495327</updated>
       <workItem from="1480778496503" duration="1580000" />
-      <workItem from="1480930741151" duration="6264000" />
+      <workItem from="1480930741151" duration="8650000" />
+      <workItem from="1481014154370" duration="3141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7844000" />
+    <option name="totallyTimeSpent" value="13371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25479743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -304,27 +366,50 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BulmaServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <marker date="1480948159341" expanded="true" signature="129:1196" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="139:215" ph=" Bootstrap the application services. ..." />
+            <marker date="1480948159341" expanded="true" signature="244:267" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="276:351" ph=" Register the application services. ..." />
+            <marker date="1480948159341" expanded="true" signature="384:483" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="492:541" ph=" Register the bulma:install command. ..." />
+            <marker date="1480948159341" expanded="true" signature="589:825" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="626:760" ph="..." />
+            <marker date="1480948159341" expanded="true" signature="674:759" ph="..." />
+            <marker date="1480948159341" expanded="true" signature="834:883" ph=" Register the bulma:install command. ..." />
+            <marker date="1480948159341" expanded="true" signature="936:1194" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="973:1124" ph="..." />
+            <marker date="1480948159341" expanded="true" signature="1026:1123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Commands/BulmaInstallCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
           <folding>
-            <element signature="e#47#86#0#PHP" expanded="true" />
+            <marker date="1480945825551" expanded="true" signature="51:192" ph="..." />
+            <marker date="1480945825551" expanded="true" signature="243:1697" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="253:318" ph=" The console command name. ..." />
+            <marker date="1480945825551" expanded="true" signature="368:440" ph=" The console command description. ..." />
+            <marker date="1480945825551" expanded="true" signature="524:598" ph=" Execute the console command. ..." />
+            <marker date="1480945825551" expanded="true" signature="627:799" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="728:791" ph="..." />
+            <marker date="1480945825551" expanded="true" signature="751:790" ph="..." />
+            <marker date="1480945825551" expanded="true" signature="808:877" ph=" Copy all assets files to base assets folder path ..." />
+            <marker date="1480945825551" expanded="true" signature="923:1081" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="1090:1171" ph=" Copy gulpfile.js to project's base path. ..." />
+            <marker date="1480945825551" expanded="true" signature="1208:1451" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="1387:1444" ph="..." />
+            <marker date="1480945825551" expanded="true" signature="1460:1534" ph=" Get the console command options. ..." />
+            <marker date="1480945825551" expanded="true" signature="1569:1695" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="1592:1687" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -338,37 +423,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BulmaServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <marker date="1480779330202" expanded="true" signature="129:780" ph="{...}" />
-            <marker date="1480779330202" expanded="true" signature="139:215" ph=" Bootstrap the application services. ..." />
-            <marker date="1480779330202" expanded="true" signature="244:267" ph="{...}" />
-            <marker date="1480779330202" expanded="true" signature="276:351" ph=" Register the application services. ..." />
-            <marker date="1480779330202" expanded="true" signature="384:437" ph="{...}" />
-            <marker date="1480779330202" expanded="true" signature="446:498" ph=" Register the adminlte:install command. ..." />
-            <marker date="1480779330202" expanded="true" signature="546:778" ph="{...}" />
-            <marker date="1480779330202" expanded="true" signature="583:713" ph="..." />
-            <marker date="1480779330202" expanded="true" signature="631:712" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/resources/assets/sass/plugins/bulma.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/assets/sass/plugins/bulma.scss" />
     <entry file="file://$PROJECT_DIR$/resources/resources/assets/sass/plugins/admin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -376,7 +435,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -384,23 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/resources/assets/sass/admin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/resources/assets/sass/front.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -408,7 +449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -416,45 +456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/resources/assets/js/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <marker date="1480946442527" expanded="true" signature="1:222" ph="/** First we will load all of this project's JavaScript dependencies which ...*/" />
-            <marker date="1480946442527" expanded="true" signature="273:494" ph="/** Next, we will create a fresh Vue application instance and attach it to ...*/" />
-            <marker date="1480946442527" expanded="true" signature="580:598" ph="{&quot;el&quot;: '##app'...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/resources/assets/js/bulma.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <marker date="1480946129213" expanded="true" signature="34:267" ph="/** Vue is a modern JavaScript library for building interactive web interfaces ...*/" />
-            <marker date="1480946129213" expanded="true" signature="324:551" ph="/** We'll register a HTTP interceptor to attach the &quot;CSRF&quot; header to each of ...*/" />
-            <marker date="1480946129213" expanded="true" signature="599:675" ph="{...}" />
-            <marker date="1480946129213" expanded="true" signature="679:906" ph="/** Echo exposes an expressive API for subscribing to channels and listening ...*/" />
-            <marker date="1480946129213" expanded="true" signature="908:1040" ph="//..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/resources/assets/js/front.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1480946450389" expanded="true" signature="1:222" ph="/** First we will load all of this project's JavaScript dependencies which ...*/" />
-            <marker date="1480946450389" expanded="true" signature="273:494" ph="/** Next, we will create a fresh Vue application instance and attach it to ...*/" />
-            <marker date="1480946450389" expanded="true" signature="580:598" ph="{&quot;el&quot;: '##app'...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,15 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1480932209375" expanded="true" signature="77:484" ph="/*...*/" />
-            <marker date="1480932209375" expanded="true" signature="534:679" ph="{&quot;public&quot;: 'public/'...}" />
-            <marker date="1480932209375" expanded="true" signature="696:1442" ph="{...}" />
-            <marker date="1480932209375" expanded="true" signature="1075:1124" ph="[...]" />
-            <marker date="1480932209375" expanded="true" signature="1171:1220" ph="[...]" />
-            <marker date="1480932209375" expanded="true" signature="1268:1315" ph="[...]" />
-            <marker date="1480932209375" expanded="true" signature="1361:1408" ph="[...]" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +470,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -498,13 +496,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Commands/BulmaInstallCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
           <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
-            <element signature="e#47#86#0#PHP" expanded="true" />
+            <marker date="1480945825551" expanded="true" signature="51:192" ph="..." />
+            <marker date="1480945825551" expanded="true" signature="243:1697" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="253:318" ph=" The console command name. ..." />
+            <marker date="1480945825551" expanded="true" signature="368:440" ph=" The console command description. ..." />
+            <marker date="1480945825551" expanded="true" signature="524:598" ph=" Execute the console command. ..." />
+            <marker date="1480945825551" expanded="true" signature="627:799" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="728:791" ph="..." />
+            <marker date="1480945825551" expanded="true" signature="751:790" ph="..." />
+            <marker date="1480945825551" expanded="true" signature="808:877" ph=" Copy all assets files to base assets folder path ..." />
+            <marker date="1480945825551" expanded="true" signature="923:1081" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="1090:1171" ph=" Copy gulpfile.js to project's base path. ..." />
+            <marker date="1480945825551" expanded="true" signature="1208:1451" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="1387:1444" ph="..." />
+            <marker date="1480945825551" expanded="true" signature="1460:1534" ph=" Get the console command options. ..." />
+            <marker date="1480945825551" expanded="true" signature="1569:1695" ph="{...}" />
+            <marker date="1480945825551" expanded="true" signature="1592:1687" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BulmaServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-347">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <marker date="1480948159341" expanded="true" signature="129:1196" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="139:215" ph=" Bootstrap the application services. ..." />
+            <marker date="1480948159341" expanded="true" signature="244:267" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="276:351" ph=" Register the application services. ..." />
+            <marker date="1480948159341" expanded="true" signature="384:483" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="492:541" ph=" Register the bulma:install command. ..." />
+            <marker date="1480948159341" expanded="true" signature="589:825" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="626:760" ph="..." />
+            <marker date="1480948159341" expanded="true" signature="674:759" ph="..." />
+            <marker date="1480948159341" expanded="true" signature="834:883" ph=" Register the bulma:install command. ..." />
+            <marker date="1480948159341" expanded="true" signature="936:1194" ph="{...}" />
+            <marker date="1480948159341" expanded="true" signature="973:1124" ph="..." />
+            <marker date="1480948159341" expanded="true" signature="1026:1123" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/assets/sass/front.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/assets/sass/admin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/assets/js/bootstrap-bulma.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+          <folding>
+            <marker date="1481018674496" expanded="true" signature="31:264" ph="/** Vue is a modern JavaScript library for building interactive web interfaces ...*/" />
+            <marker date="1481018674496" expanded="true" signature="321:548" ph="/** We'll register a HTTP interceptor to attach the &quot;CSRF&quot; header to each of ...*/" />
+            <marker date="1481018674496" expanded="true" signature="596:672" ph="{...}" />
+            <marker date="1481018674496" expanded="true" signature="676:903" ph="/** Echo exposes an expressive API for subscribing to channels and listening ...*/" />
+            <marker date="1481018674496" expanded="true" signature="905:1037" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/assets/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <marker date="1481018763032" expanded="true" signature="1:222" ph="/** First we will load all of this project's JavaScript dependencies which ...*/" />
+            <marker date="1481018763032" expanded="true" signature="255:476" ph="/** Next, we will create a fresh Vue application instance and attach it to ...*/" />
+            <marker date="1481018763032" expanded="true" signature="562:580" ph="{&quot;el&quot;: '##app'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/resources/assets/js/front.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -5,8 +5,7 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bulma');
-require('./plugins/admin');
+require('./bootstrap-bulma');
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
